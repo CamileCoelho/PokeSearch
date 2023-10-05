@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, ImageBackground } from "react-native";
 import { Button } from "react-native-elements";
 
-export default function TelaInicial({navigation, route}) {
+export default function TelaInicial({navigation}) {
   return (
     <View style={{ flex: 1 }}>
       <ImageBackground
@@ -20,7 +20,7 @@ export default function TelaInicial({navigation, route}) {
             </Text>
         </View>
         <Button title='VAMOS COMEÇAR A BUSCA!' buttonStyle={{backgroundColor: 'yellow'}}
-        titleStyle={{ color: 'black', fontWeight: '780' }} onPress={() => { navigation.navigate('TelaBusca') }} />
+        titleStyle={{ color: 'black', fontWeight: '780' }} onPress={() => { navigation.navigate('Busca') }} />
       </ImageBackground>
     </View>
   );

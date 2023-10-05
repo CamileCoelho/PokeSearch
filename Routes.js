@@ -19,7 +19,7 @@ export default function Routes() {
             >   
             </Stack.Screen>
             <Stack.Screen 
-               name='TelaBusca' 
+               name='Busca' 
                component={ TelaBusca }
                options={{ title:'Busca de Pokemons:' }}>
             </Stack.Screen>
