@@ -32,9 +32,9 @@ export default function TelaBusca({navigation}){
          </Text>
          <View 
             style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 10, marginRight: 10, }}>
-            <TextInput style={{paddingLeft: 10, borderBottomWidth: 1, borderColor: 'black', 
-            width: '100%', height: '110%', margin: 15 }} 
-            onChangeText={(nome) => setNome(nome)}/> 
+            <TextInput style={{ borderBottomWidth: 1, borderColor: 'black', width: '100%',
+                    height: '110%', margin: 10, textAlign: 'center', fontSize: 22 }} 
+                    onChangeText={(nome) => setNome(nome)}/> 
          </View>
          <View style={{ width: '100%', marginTop: 20, alignItems: 'center', paddingTop: 200 }}>
             <Button title="BUSCAR" 
