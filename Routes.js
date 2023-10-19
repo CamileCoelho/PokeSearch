@@ -13,10 +13,9 @@ export default function Routes() {
             <Stack.Screen 
                name='Inicio' 
                component={ TelaInicial } 
-               options={{ title:'Bem-vindo ao PokeSearch!' ,
+               options={{ title:'Bem-vindo ao PokeSearch!',
                headerStyle: { backgroundColor: 'white', },
-               headerTintColor: 'black', }}
-            >   
+               headerTintColor: 'black', }}>   
             </Stack.Screen>
             <Stack.Screen 
                name='Busca' 
