@@ -27,17 +27,17 @@ export default function TelaBusca({navigation}){
       <ImageBackground
          style={{ flex: 1 }}
          source={ require('../assets/background.jpg') }>
-         <Text style={{ fontWeight: 'bold', fontSize: 24, textAlign: 'center', marginTop: 20,
-               marginBottom: 20, padding: 50, paddingBottom: 150 }}>
+         <Text style={{ fontWeight: 'bold', fontSize: 24, textAlign: 'center', marginTop: 10,
+               marginBottom: 10, padding: 50, paddingBottom: 130 }}>
                Insira o Nome ou o Id do pokemon desejado:
          </Text>
          <View style={{ flexDirection: 'row', alignItems: 'center', 
-               marginLeft: 10, marginRight: 10, }}>
-            <TextInput style={{ borderBottomWidth: 1, borderColor: 'black', width: '100%',
-                       height: '110%', margin: 10, textAlign: 'center', fontSize: 22 }} 
+               marginLeft: 10, marginRight: 10, justifyContent: "center"}}>
+            <TextInput style={{ borderBottomWidth: 1, borderColor: 'black', width: '38%',
+                       height: '70%', marginBottom: 15, textAlign: 'center', fontSize: 22 }} 
                        onChangeText={(nome) => setNome(nome)}/> 
          </View>
-         <View style={{ width: '100%', marginTop: 20, alignItems: 'center', paddingTop: 200 }}>
+         <View style={{ width: '100%', marginTop: 20, alignItems: 'center', paddingTop: 140 }}>
             <Button title="BUSCAR" 
                     buttonStyle={{backgroundColor: 'yellow'}}
                     titleStyle={{ color: 'black', fontWeight: '780' }}

@@ -10,7 +10,7 @@ export default function TelaInicial({navigation}) {
         source={require('../assets/background.jpg')}>
         <View>
             <Text style={{ fontWeight: '600', fontSize: 22, textAlign: 'center', 
-            padding: 30, paddingTop: 120, paddingBottom: 15 }}>
+            padding: 30, paddingTop: 70, paddingBottom: 15 }}>
             Nosso programa facilita a busca de informações sobre Pokémon.            
             </Text>
             <Text style={{ fontWeight: '600', fontSize: 22, textAlign: 'center', 
@@ -18,7 +18,7 @@ export default function TelaInicial({navigation}) {
             Insira o nome ou o ID do Pokémon desejado e obtenha seus detalhes.
             </Text>
             <Text style={{ fontWeight: '600', fontSize: 22, textAlign: 'center', 
-            padding: 30, paddingTop:0, paddingBottom: 100  }}>
+            padding: 30, paddingTop:0, paddingBottom: 80  }}>
             Explore o mundo Pokémon de forma rápida e simples com o PokeSearch!
             </Text>
         </View>

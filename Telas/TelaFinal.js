@@ -9,14 +9,14 @@ export default function TelaFinal({ navigation, route }) {
          style={{ flex: 1, alignItems: 'center' }}
          source={require('../assets/background.jpg')}>
 
-         <View style={{ width: '100%', height: '64%', alignItems: 'center', 
+         <View style={{ width: '100%', height: '68%', alignItems: 'center', 
                justifyContent: 'flex-end' }}>
-            <View style={{ flexDirection: "row", marginRight: 10, marginBottom: 50 }}>
-               <Text style={{ fontWeight: 'bold', marginRight: 10 }}>{route.params.id}</Text>
+            <View style={{ flexDirection: "row", marginBottom: 50 }}>
+               <Text style={{ fontWeight: 'bold'}}>{route.params.id}</Text>
             </View>
 
-            <View style={{ flexDirection: 'row', marginRight: 10 }}>
-               <Text style={{ fontWeight: 'bold', marginRight: 10, marginBottom: 50}}>
+            <View style={{ flexDirection: 'row'}}>
+               <Text style={{ fontWeight: 'bold', marginBottom: 50}}>
                     {route.params.nome.toUpperCase()}</Text>
             </View>
 
