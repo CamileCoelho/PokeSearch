@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
+import { Button } from "react-native-elements";
 import { TextInput } from "react-native-gesture-handler";
 import { View, Text, ImageBackground } from "react-native";
-import { Button } from "react-native-elements";
 import { PokemonService } from "../services/pokemon.service";
 
 export default function TelaBusca({navigation}){
